@@ -9,7 +9,7 @@ import vrmapi
 ##################################################################
 
 # ファイル読み込みログ表示
-vrmapi.LOG("お天候くん、勃起開始！　Version.1.0")
+vrmapi.LOG("お天候くん開始！　Version.1.1")
 
 LAYOUT = vrmapi.LAYOUT()
 IMGUI = vrmapi.ImGui()
@@ -29,7 +29,7 @@ fog_amount_list = [1.0]
 sun_pos = [[0], [45]] # 太陽位置(緯度,経度)
 _guidisp = True       # TrueでGUI操作盤を表示
 
-def vrmevent_ex(obj,ev,param):
+def vrmevent(obj,ev,param):
     global _guidisp
     if ev == 'init':
         init(obj)
