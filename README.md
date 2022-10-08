@@ -3,7 +3,8 @@
 ## 注意
 BUILD 303以降に対応
 ## 概要
-適当にさわればだいたいわかります。
+下記サンプル動画参照
+https://youtu.be/YCCVklamQJE
 ## 利用方法
 レイアウトファイルと同じフォルダ階層に「otenko.py」ファイルを配置します。  
 
@@ -43,6 +44,3 @@ def vrmevent(obj,ev,param):
 ```
 お天候くん開始！　Version.x.x
 ```
-
-## サンプル動画
-https://youtu.be/YCCVklamQJE
