@@ -1,5 +1,7 @@
 # 鉄道模型シミュレーターNX お天候くん
 ![VRMONLINE-NX 2022_10_08 21_38_12](https://user-images.githubusercontent.com/79089755/194708015-c8aaddaf-a14b-49e6-9b8e-4d2f6d11426d.png)
+## 注意
+BUILD 303以降に対応
 ## 概要
 適当にさわればだいたいわかります。
 ## 利用方法
