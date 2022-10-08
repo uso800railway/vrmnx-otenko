@@ -3,8 +3,7 @@
 ## 注意
 BUILD 303以降に対応
 ## 概要
-下記サンプル動画参照
-https://youtu.be/YCCVklamQJE
+右記サンプル動画参照　https://youtu.be/YCCVklamQJE
 ## 利用方法
 レイアウトファイルと同じフォルダ階層に「otenko.py」ファイルを配置します。  
 
