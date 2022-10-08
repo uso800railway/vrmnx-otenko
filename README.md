@@ -19,7 +19,7 @@ import vrmapi
 import otenko # ★インポート
 
 def vrmevent(obj,ev,param):
-    otenko.vrmevent_ex(obj,ev,param) # ★メイン処理
+    otenko.vrmevent(obj,ev,param) # ★メイン処理
     if ev == 'init':
         dummy = 1
     elif ev == 'broadcast':
