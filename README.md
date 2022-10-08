@@ -43,4 +43,4 @@ def vrmevent(obj,ev,param):
 ```
 
 ## サンプル動画
-[https://youtu.be/YCCVklamQJE](https://www.youtube.com/embed/YCCVklamQJE)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YCCVklamQJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
