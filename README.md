@@ -41,3 +41,6 @@ def vrmevent(obj,ev,param):
 ```
 お天候くん開始！　Version.x.x
 ```
+
+## サンプル動画
+https://youtu.be/YCCVklamQJE
