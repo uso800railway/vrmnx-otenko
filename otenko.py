@@ -9,7 +9,7 @@ import vrmapi
 ##################################################################
 
 # ファイル読み込みログ表示
-vrmapi.LOG("お天候くん開始！　Version.1.1")
+vrmapi.LOG("お天候くん開始！　Version.1.2")
 
 LAYOUT = vrmapi.LAYOUT()
 IMGUI = vrmapi.ImGui()
@@ -61,7 +61,7 @@ def init(obj):
     for res_id in range(1, skyImgChkMax):
         res_type = obj.GetResourceType(res_id)
         # PNGのとき
-        if res_type == 3:
+        if res_type == 3 or res_type == 9:
             skyImgList.append(res_id)
             vrmapi.LOG("リソース[" + str(res_id) + "] を天球スライダー番号 " + str(len(skyImgList)) + " に読み込み")
         else:
